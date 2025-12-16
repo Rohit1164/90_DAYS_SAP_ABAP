@@ -1,0 +1,171 @@
+ 🔹 1. Basic Introduction to ABAP
+
+What is SAP ABAP?
+
+What does ABAP stand for?
+
+What is the role of ABAP in SAP system architecture?
+
+Difference between ABAP and SAP Basis.
+
+What are the main components of SAP system?
+
+What is the difference between SAP ECC and S/4HANA in terms of ABAP development?
+
+What is an SAP application server?
+
+What is the client concept in SAP?
+
+What are development, quality, and production systems in SAP?
+
+What are the different types of users in SAP (Dialog, System, Communication, etc.)?
+
+ 🔹 2. ABAP Workbench Basics
+
+What is ABAP Workbench?
+
+What are the main tools available in ABAP Workbench?
+
+What is SE38 and SE80 used for?
+
+What is a Data Dictionary (SE11)?
+
+What is a transparent table?
+
+Difference between transparent, pooled, and cluster tables.
+
+What is SE37 used for?
+
+What is SE41, SE93, SE24, and SE78 used for?
+
+How do you create a new report program in SAP?
+
+What is the difference between a report and a module pool program?
+
+ 🔹 3. ABAP Programming Fundamentals
+
+What are data types in ABAP?
+
+Difference between elementary, structured, and reference data types.
+
+What is the difference between internal table and work area?
+
+What are the different kinds of internal tables?
+
+What are control statements in ABAP?
+
+What is the difference between a classical report and an interactive report?
+
+What is the use of the SELECT statement in ABAP?
+
+What is the difference between SELECT SINGLE and SELECT UP TO 1 ROWS?
+
+What is modularization in ABAP?
+
+What are the types of modularization techniques (Subroutines, Function Modules, Methods, etc.)?
+
+🔹 4. ABAP Dictionary Concepts
+
+What is the purpose of ABAP Dictionary?
+
+What are domains and data elements?
+
+What is the difference between a structure and a table type?
+
+What is a foreign key relationship?
+
+What is a search help and check table?
+
+What is buffering in SAP tables?
+
+What is a view in ABAP Dictionary and what are its types (Database, Projection, Maintenance, Help view)?
+
+What is the purpose of table maintenance generator (SM30)?
+
+What is the difference between technical settings and delivery class?
+
+What is a lock object?
+
+🔹 5. ABAP Runtime and Architecture
+
+What is the ABAP runtime environment?
+
+What are work processes in SAP?
+
+What is the dispatcher in SAP?
+
+What is an enqueue and dequeue mechanism?
+
+What is buffering and how does it improve performance?
+
+What is the difference between synchronous and asynchronous processing?
+
+What is LUW (Logical Unit of Work)?
+
+What is the difference between SAP LUW and Database LUW?
+
+🔹 6. ABAP Development Lifecycle
+
+What is a transport request in SAP?
+
+What is CTS (Change and Transport System)?
+
+What are development classes / packages?
+
+What are the different types of programs in SAP?
+
+What is an enhancement and modification?
+
+What is user-exit, customer-exit, BADI, and enhancement-point?
+
+What is the difference between implicit and explicit enhancement?
+
+What is a variant and how is it used in reports?
+
+🔹 7. ABAP Objects (Intro Level)
+
+What is ABAP Objects?
+
+Difference between classical ABAP and ABAP Objects.
+
+What are classes and objects?
+
+What is inheritance and polymorphism in ABAP?
+
+What is an interface in ABAP?
+
+What are public, private, and protected sections in classes?
+
+What is an event in ABAP Objects?
+
+🔹 8. Advanced (Common Intro Follow-ups)
+
+What are RFCs and their types (synchronous/asynchronous)?
+
+What is BAPI and how is it different from RFC?
+
+What is an update function module?
+
+What is the use of CALL TRANSACTION and SESSION METHOD in BDC?
+
+What is the difference between BDC and LSMW?
+
+What is the difference between Open SQL and Native SQL?
+
+What is CDS view and how is it different from a normal view?
+
+What is AMDP (ABAP Managed Database Procedure)?
+
+What are the new syntax and inline declarations introduced in ABAP 7.4+?
+
+🧠 Bonus: HR/Practical Questions
+
+How do you debug a program in SAP ABAP?
+
+What is the difference between WRITE and NEW-LINE?
+
+How do you handle errors in ABAP programs?
+
+What is the importance of performance tuning in ABAP?
+
+How do you analyze performance issues (ST05, SE30, SAT)?

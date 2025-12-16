@@ -1,0 +1,18 @@
+Task 1:
+SALV report banao jisme:
+MATNR hotspot
+All standard toolbar functions ON
+Zebra ON
+Column optimize ON
+
+Task 2:
+Sorting lagao:
+First MTART
+Then MATKL
+
+Task 3:
+Hotspot click par message show karo:
+You selected material <MATNR>
+
+Task 4:
+Double-click event add karo (sirf message enough).

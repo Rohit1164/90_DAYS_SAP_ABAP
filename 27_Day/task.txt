@@ -1,0 +1,17 @@
+Task 1:
+SALV report banao jisme:
+Custom button “SHOW COUNT”
+Click par message:
+Total materials = <number>
+
+Task 2:
+SALV me:
+MATNR hotspot
+Zebra ON
+Column optimize ON
+
+Task 3:
+Sorting lagao by MTART.
+
+Task 4:
+Code ko production-style me clean karo (comments + naming).

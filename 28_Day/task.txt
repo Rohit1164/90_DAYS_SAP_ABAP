@@ -1,0 +1,12 @@
+Task 1:
+Mini project ko khud type karo (copy-paste mat karo).
+
+Task 2:
+Header me aaj ki date add karo.
+
+Task 3:
+MATKL ke hisaab se sorting add karo.
+
+Task 4:
+Interview explanation likho:
+“When to use SALV and when OO ALV?”

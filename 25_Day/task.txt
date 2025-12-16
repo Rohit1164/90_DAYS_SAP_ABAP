@@ -1,0 +1,21 @@
+Task 1:
+SALV use karte hue ek ALV banao jisme:
+Title: "Material Master SALV Report"
+Zebra pattern ON
+Column optimize ON
+
+Task 2:
+MATKL column ko hide karo.
+
+Task 3:
+Only 20 records fetch karo and display.
+
+Task 4:
+Display header me aaj ki date add karo:
+Example:
+Material Report – 12/12/2025
+
+Hint:
+DATA lv_date TYPE string.
+lv_date = |Material Report - { sy-datum }|.
+lo_alv->get_display_settings( )->set_list_header( lv_date ).
