@@ -1,0 +1,14 @@
+Task 1:
+OO ALV banao jisme:
+MEINS editable ho
+MATNR display only
+
+Task 2:
+Data_changed event add karo (sirf message enough).
+
+Task 3:
+Screen 0100 me ALV display verify karo.
+
+Task 4:
+Notes likho:
+“Why OO ALV is used in transactions?”
