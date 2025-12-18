@@ -1,0 +1,17 @@
+Task 1
+MEINS field ke liye validation lagao:
+Blank ❌
+Error message show ho
+
+✅ Task 2
+SAVE button create karo:
+Data DB me save ho
+Success message aaye
+
+✅ Task 3
+Screen 0100 me:
+Edit → Validate → Save flow test karo
+
+✅ Task 4 (Important)
+Notes likho (interview answer):
+“How editable ALV works in SAP ABAP with validation and save logic?”

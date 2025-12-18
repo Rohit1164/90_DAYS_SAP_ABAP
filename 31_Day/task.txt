@@ -1,0 +1,18 @@
+Task 1
+Module Pool program create karo:
+Name: SAPMZ_DAY31
+
+✅ Task 2
+Screen 0100 banao:
+2 input fields
+2 buttons (SAVE, EXIT)
+
+✅ Task 3
+PBO me:
+PF-STATUS set karo
+Title set karo
+
+✅ Task 4
+PAI me:
+SAVE → Message show ho
+EXIT → Program exit
