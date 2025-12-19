@@ -1,0 +1,18 @@
+✅ Task 1
+CHAIN–ENDCHAIN use karke:
+MATNR
+MEINS
+dono mandatory banao.
+
+✅ Task 2
+MATNR par:
+ON INPUT message show karo
+ON REQUEST F4 logic add karo (dummy ok).
+
+✅ Task 3
+SAVE button:
+Valid data → success message
+
+✅ Task 4
+BACK button:
+LEAVE TO SCREEN 0
