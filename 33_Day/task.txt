@@ -1,0 +1,21 @@
+<------- skip this module pool programming topic for sometime -------> 
+
+✅ Task 1
+Main screen 0100 banao:
+Header text
+Subscreen area
+
+✅ Task 2
+Subscreen 0200 banao:
+2 input fields
+Simple validation
+
+✅ Task 3
+Tabstrip control add karo:
+2 tabs
+Har tab par alag subscreen call ho
+
+✅ Task 4
+Notes likho (interview answer):
+“How Tabstrip and Subscreens are used in real SAP transactions?”
+

@@ -1,0 +1,27 @@
+Task 1: Simple Addition FM
+
+Objective: Create a FM that adds two numbers
+Inputs:
+IV_NUM1 (TYPE I)
+IV_NUM2 (TYPE I)
+Output:
+EV_RESULT (TYPE I)
+👉 Call this FM in a report and display result
+
+Task 2: Even / Odd Check
+Objective: Check whether a number is even or odd
+Input: IV_NUMBER
+Output: EV_RESULT (TYPE STRING → ‘EVEN’ / ‘ODD’)
+
+Task 3: String Reverse
+
+Objective: Reverse a given string
+Input: IV_TEXT (TYPE STRING)
+Output: EV_REVERSED (TYPE STRING)
+
+Task 4: User Name Fetch
+Objective: Get user full name using system user
+Input: IV_UNAME (TYPE SY-UNAME)
+Output: EV_NAME (TYPE AD_NAMTEXT)
+
+📌 Hint: Use table USR21 / ADRP
