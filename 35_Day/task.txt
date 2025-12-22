@@ -1,0 +1,33 @@
+Task 5: Employee Details FM
+Objective: Fetch employee data from ZEMP table
+Input: IV_EMP_ID
+Output: ES_EMP_DATA (Structure)
+
+📌 Use:
+Importing
+Exporting
+Exception if employee not found
+
+Task 6: Salary Grade FM
+Objective: Decide salary grade
+Input: IV_SALARY
+Logic:
+< 30,000 → Grade C
+30,000–60,000 → Grade B
+60,000 → Grade A
+Output: EV_GRADE
+
+Task 7: Internal Table Processing
+Objective:
+Import internal table of employees
+Calculate total salary
+Return total amount
+
+📌 Use TABLES / CHANGING parameter
+
+Task 8: Date Difference Calculator
+Objective: Calculate days between two dates
+Inputs: IV_DATE1, IV_DATE2
+Output: EV_DAYS
+
+📌 Hint: Use FM: DAYS_BETWEEN_TWO_DATES

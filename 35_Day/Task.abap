@@ -1,0 +1,77 @@
+" Task 5: Employee Details FM
+
+FUNCTION Z_GET_EMPLOYEE_DETAILS.
+IMPORTING
+VALUE(IV_EMP_ID) TYPE ZEMP-EMP_ID
+  " Exporting parameter
+  EXPORTING
+    VALUE(ES_EMP_DATA) TYPE ZEMP
+  " Exception for not found case  
+  EXCEPTIONS
+  EMPLOYEE_NOT_FOUND.
+  data: lv_emp_id TYPE ZEMP-EMP_ID.
+  
+  data: lv_count TYPE i.
+  " Select employee data from ZEMP table
+  SELECT SINGLE * FROM ZEMP INTO ES_EMP_DATA WHERE EMP_ID = IV_EMP_ID.
+  " Check if employee data is found
+  IF sy-subrc <> 0.
+    RAISE EMPLOYEE_NOT_FOUND.
+  ENDIF.
+ENDFUNCTION.
+
+" Task 6: Salary Grade FM
+ 
+FUNCTION Z_GET_SALARY_GRADE.
+IMPORTING
+  VALUE(IV_SALARY) TYPE ZEMP-SALARY
+  EXPORTING
+    VALUE(EV_GRADE) TYPE CHAR1.
+
+data: lv_salary TYPE ZEMP-SALARY,
+      lv_grade TYPE CHAR1.
+
+IF IV_SALARY < 30000.
+  EV_GRADE = 'C'.
+ELSEIF IV_SALARY >= 30000 AND IV_SALARY < 60000.
+  EV_GRADE = 'B'.
+ELSE.
+  EV_GRADE = 'A'.
+ENDIF.
+ENDFUNCTION.
+
+" Task 7: Internal Table Processing
+
+FUNCTION Z_CALCULATE_TOTAL_SALARY.
+  TABLES
+    IT_EMPLOYEES TYPE ZEMP
+  EXPORTING
+    VALUE(EV_TOTAL_SALARY) TYPE ZEMP-SALARY.
+
+  DATA: lv_total_salary TYPE ZEMP-SALARY VALUE 0,
+        lv_employee TYPE ZEMP.
+
+  LOOP AT IT_EMPLOYEES INTO lv_employee.
+    lv_total_salary = lv_total_salary + lv_employee-SALARY.
+  ENDLOOP.
+
+  EV_TOTAL_SALARY = lv_total_salary.
+ENDFUNCTION.
+
+" Task 8: Date Difference Calculator
+
+FUNCTION Z_CALCULATE_DATE_DIFFERENCE.
+  IMPORTING 
+    VALUE(IV_DATE1) TYPE DATS
+    VALUE(IV_DATE2) TYPE DATS
+  EXPORTING
+    VALUE(EV_DAYS) TYPE I.
+  DATA: lv_days TYPE I.
+  CALL FUNCTION 'DAYS_BETWEEN_TWO_DATES'
+    EXPORTING
+      DATE1 = IV_DATE1
+      DATE2 = IV_DATE2
+    IMPORTING
+      DAYS  = lv_days.
+  EV_DAYS = lv_days.
+ENDFUNCTION.
