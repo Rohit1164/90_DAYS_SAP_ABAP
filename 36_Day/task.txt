@@ -1,0 +1,31 @@
+Task 9: Reusable Validation FM
+Objective: Validate email ID
+Input: IV_EMAIL
+Output: EV_VALID (X / SPACE)
+
+📌 Use regex or FIND
+
+Task 10: Authorization Check FM
+Objective: Check whether user has authorization for T-Code
+Inputs:
+IV_UNAME
+IV_TCODE
+Output: EV_AUTHORIZED
+
+📌 Use AUTHORITY-CHECK
+
+Task 11: Logging FM
+Objective:
+Save error logs into ZLOG table
+Inputs: user, date, time, message
+No output
+
+📌 Use this FM inside other programs
+
+Task 12: Exception Handling FM
+Objective:
+Create FM with custom exceptions
+ZERO_DIVISION
+INVALID_INPUT
+
+📌 Call FM and handle exceptions in report
