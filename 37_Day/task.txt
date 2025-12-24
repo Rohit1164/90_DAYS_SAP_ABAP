@@ -1,0 +1,17 @@
+✅ Task 1
+RFC FM create karo:
+Name: Z_RFC_TEST
+Import: IV_TEXT
+Export: EV_TEXT
+
+✅ Task 2
+SM59 me RFC destination test karo.
+
+✅ Task 3
+RFC call report likho:
+Text send karo
+Response print karo
+
+✅ Task 4
+Notebook me likho:
+“Steps to create and call an RFC function module.”
