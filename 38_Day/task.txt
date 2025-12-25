@@ -11,3 +11,23 @@ SM58 / SMQ1 / SMQ2 tcodes open karke dekho (system me).
 ✅ Task 4
 Interview answer likho:
 “Which RFC type will you use for critical data transfer and why?”
+
+RFC Mini Project – Business Scenario
+
+Project Name
+Material Data Transfer via RFC
+
+📌 Scenario
+System A (Source)
+Material data prepare karta hai
+RFC call karta hai
+
+System B (Target)
+RFC-enabled FM receive karta hai
+Data process / store karta hai
+
+📌 Real Project Examples
+
+ECC → S/4HANA migration
+SAP → BW data load
+SAP → Central reporting system
