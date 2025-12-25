@@ -1,0 +1,13 @@
+✅ Task 1
+Notebook me table banao:
+sRFC vs aRFC vs tRFC vs qRFC
+
+✅ Task 2
+tRFC ka flow likho (step-by-step).
+
+✅ Task 3
+SM58 / SMQ1 / SMQ2 tcodes open karke dekho (system me).
+
+✅ Task 4
+Interview answer likho:
+“Which RFC type will you use for critical data transfer and why?”
