@@ -1,0 +1,12 @@
+✅ Task 1
+Notebook me likho:
+“Why BAPI is safer than direct database update?”
+
+✅ Task 2
+System me check karo:
+Tcode BAPI
+Material related BAPIs list karo
+
+✅ Task 3
+Diagram draw karo:
+Program → BAPI → Commit → DB
