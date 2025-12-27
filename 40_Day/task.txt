@@ -1,0 +1,12 @@
+✅ Task 1
+Program likho jo:
+Material create kare
+RETURN messages print kare
+
+✅ Task 2
+Intentionally galat UOM do
+Error message observe karo
+
+✅ Task 3
+Notebook me likho:
+“Steps to create material using BAPI.”
