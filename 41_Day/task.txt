@@ -1,0 +1,18 @@
+✅ Task 1
+Existing material ka:
+Base UOM change karo
+Commit karo
+
+✅ Task 2
+Intentionally:
+X-structure mat bharo
+Error observe karo
+
+✅ Task 3
+Program me:
+Error → Rollback
+Success → Commit implement karo
+
+✅ Task 4 (Interview)
+Notebook me likho:
+“How BAPI handles change with X-structure and commit/rollback.”
