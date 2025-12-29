@@ -1,0 +1,65 @@
+✅ Task 1
+Notebook me decision tree banao:
+Data Upload → BAPI? → Yes/No → BDC/LSMW
+Start
+  |
+  |-- Is standard BAPI available?
+        |
+        |-- YES
+        |     |
+        |     |-- Use BAPI
+        |           - Safe
+        |           - Fast
+        |           - Upgrade-proof
+        |
+        |-- NO
+              |
+              |-- Is it one-time / mass data migration?
+                    |
+                    |-- YES
+                    |     |
+                    |     |-- Use LSMW
+                    |           - Excel / Legacy data
+                    |           - Functional friendly
+                    |
+                    |-- NO
+                          |
+                          |-- Use BDC
+                                - Screen based
+                                - Temporary solution
+
+
+
+✅ Task 2
+3 scenarios likho aur tool choose karo (with reason).
+
+🔹 Scenario 1
+Requirement: Create Purchase Orders from external system in real-time
+Tool Chosen: BAPI
+Reason:
+Standard BAPI available
+Real-time integration
+Better performance & error handling
+✅ Correct Choice: BAPI
+
+🔹 Scenario 2
+Requirement: Upload 15,000 customer masters from Excel during go-live
+Tool Chosen: LSMW
+Reason:
+One-time mass upload
+Data from legacy system
+No real-time requirement
+✅ Correct Choice: LSMW
+
+🔹 Scenario 3
+Requirement: Update custom transaction where no BAPI exists
+Tool Chosen: BDC
+Reason:
+No standard BAPI
+Custom / old transaction
+Business urgency
+✅ Correct Choice: BDC
+
+✅ Task 3
+Interview answer likho:
+“How do you decide between BAPI, BDC, and LSMW in real projects?”
