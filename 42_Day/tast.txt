@@ -1,0 +1,13 @@
+✅ Task 1
+Notebook me likho:
+“Mass processing using BAPI – correct commit strategy.”
+
+✅ Task 2
+Pseudo-code likho:
+Loop → BAPI call
+Error collect
+End me Commit / Rollback
+
+✅ Task 3
+Interview answer prepare karo:
+“How do you handle performance when calling BAPIs for multiple records?”
