@@ -1,0 +1,13 @@
+✅ Task 1
+BDC program me:
+MESSAGES INTO add karo
+Errors print karo
+
+✅ Task 2
+Intentionally:
+Galat data pass karo
+Error message analyze karo
+
+✅ Task 3
+Notebook me likho:
+“How error handling is done in BDC (Classical vs Session).”
