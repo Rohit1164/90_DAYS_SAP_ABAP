@@ -1,0 +1,14 @@
+✅ Task 1
+SHDB se kisi ek transaction (simple) ka recording banao.
+
+✅ Task 2
+Us recording se:
+BDCDATA table build karo
+
+✅ Task 3
+Classical BDC likho:
+MODE = ‘E’
+
+✅ Task 4
+Notebook me likho:
+“Difference between Classical and Session BDC.”
