@@ -1,0 +1,21 @@
+✅ Task 1
+Notebook me likho:
+“What is IDOC and why it is used in SAP?”
+
+✅ Task 2
+Diagram draw karo:
+Sender → IDOC → Receiver
+
+Sender System
+     |
+     |  (IDOC)
+     |
+Middleware / Port
+     |
+     |
+Receiver System
+
+
+✅ Task 3
+System me check karo:
+Tcode WE02 / WE05 (sirf dekho)

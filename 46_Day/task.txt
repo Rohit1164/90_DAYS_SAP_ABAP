@@ -1,0 +1,9 @@
+✅ Task 1
+BDC mini project ka flow diagram notebook me draw karo.
+
+✅ Task 2
+Classical BDC code ko clean + commented likho.
+
+✅ Task 3
+Interview answer likho:
+“Explain a BDC mini project you worked on.”

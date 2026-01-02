@@ -1,0 +1,34 @@
+✅ Task 1
+WE30 me MATMAS05 open karke:
+Parent & child segments note karo
+
+🔹 Steps to Perform in SAP
+Go to T-code: WE30
+Select IDOC Type
+Enter MATMAS05
+Click Display
+Expand the segment tree (left side)
+
+🔹 What You Will See (Important Segments)
+E1MARAM        → Parent Segment (Material Basic Data)
+ ├─ E1MAKTM    → Child (Material Description)
+ ├─ E1MARCM    → Child (Plant Data)
+ ├─ E1MBEWM    → Child (Valuation Data)
+ ├─ E1MLGNM    → Child (Warehouse Data)
+
+✅ Task 2
+Notebook me likho:
+“Difference between Message Type and IDOC Type.”
+
+✅ Task 3
+WE02 me:
+Ek successful (53) aur ek error (51) IDOC observe karo
+
+Steps in SAP
+Go to T-code: WE02
+Enter:
+Date
+Message Type (MATMAS / DEBMAS / CREMAS)
+Execute (F8)
+Open one IDOC with status 53
+Open one IDOC with status 51
