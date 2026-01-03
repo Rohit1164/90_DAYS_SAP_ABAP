@@ -1,0 +1,35 @@
+✅ Task 1
+WE42 me:
+Kisi process code ko open karke
+Linked function module note karo
+✅ Answer
+What you did in WE42:
+Open WE42
+Choose Inbound Process Code
+Open any standard process code (example: DEBM, MATM, etc.)
+Observe the Function Module field
+What to note down:
+Process Code: (example) DEBM
+Direction: Inbound
+Linked Function Module: (example) IDOC_INPUT_DEBITOR
+
+✅ Task 2
+WE20 me:
+Inbound parameter observe karo
+Message type + process code identify karo
+
+✅ Answer
+What you did in WE20:
+Open WE20
+Select a Partner Type (LS / KU / LI)
+Open Inbound Parameters
+Open any inbound entry
+Identify & Observe:
+Message Type → What kind of data (e.g., DEBMAS, MATMAS)
+Process Code → Which logic will run
+IDOC Type → Structure of data
+Receiver Port → Where IDOC comes from
+
+✅ Task 3
+Notebook me likho:
+“Inbound IDOC processing steps with statuses.”
