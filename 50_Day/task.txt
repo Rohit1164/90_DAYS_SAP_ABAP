@@ -1,0 +1,35 @@
+✅ Task 1
+WE02 me:
+Ek status 51 IDOC open karo
+Error message note karo
+
+Steps you performed / should perform:
+Go to WE02
+Enter IDOC Number (or Message Type)
+Execute
+Open the IDOC with Status = 51
+Click on Status 51 line
+Note down:
+Error Message text
+Message Class
+Message Number
+Example Error (sample):
+Customer 100234 does not exist in sales area
+Message Class: V1
+
+✅ Task 2
+BD87 me:
+IDOC reprocess flow observe karo (actual / demo)
+What you observed in BD87:
+Go to BD87
+Enter:
+Message Type (e.g. ORDERS)
+IDOC Number (optional)
+Execute
+System lists failed IDOCs
+Select the IDOC
+Click Process
+
+✅ Task 3
+Notebook me likho:
+“Steps to analyze and fix an inbound IDOC error.”
