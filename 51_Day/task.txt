@@ -1,0 +1,56 @@
+✅ Task 1
+Notebook me end-to-end diagram draw karo (Outbound + Inbound).
+
+Outbound System (Sender)
+------------------------
+Material Master Changed (MM01/MM02)
+        |
+        v
+Change Pointer (BDCP2)
+        |
+        v
+IDOC Generated (MATMAS)
+        |
+        v
+IDOC Status 30 (Ready for Dispatch)
+        |
+        v
+Port (WE21)
+        |
+        v
+RFC / File Transfer
+        |
+        v
+Inbound System (Receiver)
+-------------------------
+IDOC Received
+        |
+        v
+IDOC Status 64 (Ready to Process)
+        |
+        v
+Inbound Function Module
+        |
+        v
+Material Created / Updated
+        |
+        v
+IDOC Status 53 (Successfully Posted)
+
+
+✅ Task 2
+Steps likho:
+“How a MATMAS IDOC is generated and processed.”
+
+✅ Task 3
+Interview answer likho:
+“Describe an IDOC mini project you worked on.”
+Ready-to-Speak Answer (Professional)
+
+I worked on a MATMAS IDOC mini project where material master data was transferred from one SAP system to another using ALE/IDOC technology.
+
+In this project, whenever a material was created or changed in the source system, an outbound MATMAS IDOC was generated using change pointers. I configured the partner profile, port, message type, and IDOC type.
+
+The IDOC was sent via RFC to the receiving system, where it was processed using an inbound function module to create or update the material master.
+
+I monitored IDOCs using WE02 and handled errors with status 51 by analyzing segments and reprocessing the IDOC. This project helped me understand real-time data integration between SAP systems.

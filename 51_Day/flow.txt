@@ -1,0 +1,19 @@
+Material Save (System A)
+        ↓
+NACE (Output Trigger)
+        ↓
+WE20 (Outbound Partner)
+        ↓
+WE21 (Port)
+        ↓
+Outbound IDOC (Status 03 → 12)
+        ↓
+Inbound IDOC (System B)
+        ↓
+WE20 (Inbound Partner)
+        ↓
+WE42 (Process Code → FM)
+        ↓
+Posting
+        ↓
+Status 53 (Success) / 51 (Error)
