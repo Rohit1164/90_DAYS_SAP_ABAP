@@ -1,0 +1,26 @@
+✅ Task 1
+Notebook me likho:
+“Why enhancements are needed in SAP ABAP?”
+Enhancements allow developers to add custom business logic to standard SAP programs safely, without modifying SAP standard code.
+
+✅ Task 2
+Table banao:
+User Exit vs Customer Exit vs BADI
+
+| Feature                  | User Exit            | Customer Exit         | BAdI             |
+| ------------------------ | -------------------- | --------------------- | ---------------- |
+| Technology               | Procedural           | Function Module based | Object-Oriented  |
+| Identification           | Hardcoded in program | SMOD                  | SE18             |
+| Implementation           | Direct include       | CMOD project          | SE19             |
+| SAP Tool                 | None specific        | SMOD / CMOD           | SE18 / SE19      |
+| Multiple Implementations | ❌ No                 | ❌ No                  | ✅ Yes            |
+| Filter Support           | ❌ No                 | ❌ No                  | ✅ Yes            |
+| Enhancement Type         | Old                  | Old but structured    | New & Advanced   |
+| Upgrade Safety           | Medium               | High                  | Very High        |
+| Coding Location          | Include program      | Include of exit FM    | Class method     |
+| Usage Today              | Rare                 | Limited               | Highly Preferred |
+
+
+✅ Task 3
+Interview answer likho:
+“Explain enhancement techniques in SAP ABAP.”

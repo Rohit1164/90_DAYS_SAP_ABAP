@@ -1,0 +1,23 @@
+✅ Task 1
+SMOD open karo:
+Kisi ek enhancement ko explore karo
+Exit function module ka naam note karo
+
+✅ Task 2
+CMOD open karo:
+Project creation steps samjho (actual create optional)
+CMOD Project Creation Steps:
+
+T-code: CMOD open karo
+Project field me naam likho
+👉 Example: Z_MM_EXIT
+Create (F5) karo
+Description likho
+Enhancements tab me jao
+SMOD se mila enhancement add karo
+👉 Example: MM06E005
+Save karo
+
+✅ Task 3
+Notebook me likho:
+“Steps to implement a customer exit using SMOD and CMOD.”
