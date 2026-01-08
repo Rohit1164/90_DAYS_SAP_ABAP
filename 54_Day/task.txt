@@ -1,0 +1,58 @@
+✅ Task 1
+SE18 me:
+Ek BADI search karo
+Uske methods note karo
+
+✅ Ans
+🔹 Step 1: SE18 open karo
+T-Code: SE18
+Ye BADI Definition dekhne ke liye hota hai
+
+🔹 Step 2: Ek BADI search karo
+Example ke liye:
+BADI Name: BADI_SD_SALES
+(ya F4 help se koi bhi standard BADI choose kar sakte ho)
+
+🔹 Step 3: Display par click karo
+Ab yeh sections dikhenge:
+
+1️⃣ Interface
+Interface name hota hai jaise: IF_EX_BADI_SD_SALES
+Ye interface methods define karta hai
+
+2️⃣ Methods tab
+Yahan methods listed honge, jaise:
+PROCESS_SALES
+CHECK_DATA
+MODIFY_DATA
+
+✅ Task 2
+SE19 me:
+Implementation creation steps samjho
+
+✅ Ans
+🔹 Step 1: SE19 open karo
+T-Code: SE19
+
+🔹 Step 2: Create Implementation
+Select: Classic BADI
+Implementation Name:
+Example → ZIMPL_SD_SALES
+Click Create
+
+🔹 Step 3: BADI name assign karo
+BADI Name: BADI_SD_SALES
+Continue
+
+🔹 Step 4: Implementation details
+Short text do
+Interface automatically assign ho jayega
+
+🔹 Step 5: Method implementation
+Method par double click karo
+
+🔹 Activate
+
+✅ Task 3
+Notebook me likho:
+“How BADI works with multiple implementations and filters.”
